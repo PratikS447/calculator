@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#search-input{
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+#Search-btn{
+    padding: 5px 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.category-btn.active{
+    background-color: orange;
+}
+.category-container{
+    display: flex;
+}
+.category-btn{
+    background-color: #2196f3;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.product-item{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#product-list{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+}
